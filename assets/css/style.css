@@ -57,6 +57,7 @@ textarea {
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
+  padding-top: 30px;
   margin: 0;
   width: 10%;
   height: 100%;
@@ -68,6 +69,15 @@ textarea {
   padding: 10px;
   border: none;
   color: #000000;
+  font-family: "Open Sans", sans-serif;
+}
+
+.custom-input:focus {
+  background-color: #ffffff;
+}
+
+.custom-input:hover {
+  border: 1px black solid;
 }
 
 .custom-icon {
@@ -87,6 +97,17 @@ textarea {
 
 .custom-future {
   background-color: #77dd77;
+}
+
+.custom-saved {
+  display: none;
+  background-color: transparent;
+  color: #77dd77;
+
+  height: 100%;
+
+  text-align: center;
+  padding-top: 20px;
 }
 
 .custom-saveBtn {
